@@ -28,12 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.pixelWindow = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // pixelWindow
+            // 
+            this.pixelWindow.AutoSize = true;
+            this.pixelWindow.Location = new System.Drawing.Point(12, 9);
+            this.pixelWindow.Name = "pixelWindow";
+            this.pixelWindow.Size = new System.Drawing.Size(99, 13);
+            this.pixelWindow.TabIndex = 0;
+            this.pixelWindow.Text = "Pixels in Window = ";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.pixelWindow);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label pixelWindow;
     }
 }
 
