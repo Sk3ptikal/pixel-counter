@@ -15,6 +15,16 @@ namespace Pixels_in_Window
         public Form1()
         {
             InitializeComponent();
+            int pixels = getPixels();
+            pixelLabel.Text = "This window contains " + pixels + " pixels ";
+        }
+        
+        public int getPixels()
+        {
+            int height = this.Size.Height;
+            int width = this.Size.Width;
+            int pixels = height * width;
+            return pixels;
         }
     }
 }
