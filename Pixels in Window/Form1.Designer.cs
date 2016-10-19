@@ -36,9 +36,9 @@
             this.pixelWindow.AutoSize = true;
             this.pixelWindow.Location = new System.Drawing.Point(12, 9);
             this.pixelWindow.Name = "pixelWindow";
-            this.pixelWindow.Size = new System.Drawing.Size(109, 13);
+            this.pixelWindow.Size = new System.Drawing.Size(99, 13);
             this.pixelWindow.TabIndex = 0;
-            this.pixelWindow.Text = "Pixels in Windowss = ";
+            this.pixelWindow.Text = "Pixels in Window = ";
             // 
             // Form1
             // 
