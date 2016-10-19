@@ -44,10 +44,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(464, 367);
+            this.ClientSize = new System.Drawing.Size(264, 231);
             this.Controls.Add(this.pixelLabel);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Resize += new System.EventHandler(this.Form1_Resize);
             this.ResumeLayout(false);
             this.PerformLayout();
 
